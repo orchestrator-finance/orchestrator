@@ -1,0 +1,23 @@
+title: orchestrator
+description: "A Jekyll Blog Theme For Hackers"
+author:
+  name: "orchestrator finance"
+  email: "info@orchestrator.finance"
+  url: "https://orchestrator.finance"
+
+baseurl: /
+
+source: .
+destination: ./_site
+permalink: /:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Custom variables
+name : "orchestrator"
